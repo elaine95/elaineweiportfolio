@@ -1,0 +1,89 @@
+@import "../../global.scss";
+
+.lifestyle{
+    background-color: $secondaryColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Bradley Hand, cursive;
+
+
+    .slider{
+        height: 500px;
+        display: flex;
+        position: absolute;
+        left: 0;
+
+        .container{
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .item{
+                width: 1000px;
+                height: 100%;
+                background-color: white;
+                border-radius: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                @include mobile {
+                    width: 80%;
+                    height: 200px;
+                    margin: 20px 0;
+                }
+            }
+
+            .left{
+                flex: 6;
+                height: 80%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .leftContainer{
+                    width: 90%;
+                    height: 70%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    
+                    h2{
+                        font-size: 30px;
+                    }
+                    p{
+                        font-size: 18px;
+                    }
+                    span{
+                        font-size: 12px;
+                        font-weight: 600;
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .right{
+                flex: 4;
+                flex-direction: column;
+                height: 80%;
+                width: 80%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                overflow: hidden;
+
+                img{ 
+                    width: 140px;
+                    height: 140px;
+                }
+            }
+        }
+    }
+
+    
+}

@@ -1,0 +1,50 @@
+@import "../../global.scss";
+
+.contact{
+    background-color: $secondaryColor;
+    display: flex;
+    flex-direction: column;
+    font-family: Bradley Hand, cursive;
+
+
+    @include mobile {
+        flex-direction: column;
+    }
+
+
+    .content{
+        flex: 0.6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h2{
+            font-size: 50px;;
+        }
+
+        p{
+            font-size: 20px;
+            color: #687a5a; 
+        }
+    
+    }
+
+    .footer{
+        flex: 0.4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        .icon{
+            
+            img{          
+                padding: 10px;   
+                width: 50px;
+                height: 50px;
+            }
+        }
+
+      
+    }
+}
