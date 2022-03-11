@@ -11,7 +11,7 @@ export const graphicsPortfolio=[
     {
         id: 1,
         title: "Computer Graphics - Shadow Ray | C++",
-        img: "https://raw.githubusercontent.com/elaine95/elaine95.github.io/master/img/texture.bmp"
+        img: "assets/ShadowRay.png"
     }
 ]
 
