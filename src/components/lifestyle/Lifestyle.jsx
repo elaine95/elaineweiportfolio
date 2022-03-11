@@ -11,9 +11,10 @@ export default function Lifestyle(){
                                 
                                 <h2>A bit more about myself...</h2>
                                 <p>Foodie who loves exploring new resturants in town, fav food is Sushi.<br/>
-                                <br/>Have been playing badminton for seven years.<br/>
-                                <br/>Love to travel and take photos. Recently started filming vlogs.<br/>
-                                <br/> Plant lover who owns many succulents.</p>
+                                <br/>Have been playing badminton for more than seven years.<br/>
+                                <br/>Love travel and taking photos. Recently started filming vlogs.<br/>
+                                <br/>Plant lover who owns many succulents. <br/>
+                                <br/>Recently practicing Yoga to improve self-care.<br/> </p>
                             </div>
                         </div>
                         <div className="right">

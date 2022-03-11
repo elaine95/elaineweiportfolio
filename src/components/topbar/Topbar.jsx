@@ -1,5 +1,5 @@
 import './topbar.scss';
-import {LinkedIn, Email, LocationOnRounded} from "@material-ui/icons";
+import {LinkedIn, Email, LocationOnRounded, AttachFile} from "@material-ui/icons";
 
 export default function Topbar({ menuOpen, setMenuOpen }){
     return(
@@ -9,15 +9,23 @@ export default function Topbar({ menuOpen, setMenuOpen }){
                     <a href="#intro" className="logo">Elaine Wei</a>
                     <div className="itemContainer">
                         <LinkedIn className="icon"/>
-                        <a href="https://www.linkedin.com/in/elaine-wei-b1575390/">Elaine Wei</a>
+                        <a href="https://www.linkedin.com/in/elaine-wei-b1575390/" target="_blank" rel="noopener noreferrer">Elaine Wei</a>
                     </div>
                     <div className="itemContainer">
                         <Email className="icon"/>
-                        <span>elaine.huan.wei@gmail.com</span>
+                        <a href="mailto:elaine.huan.wei@gmail.com">
+                            <span>elaine.huan.wei@gmail.com</span>
+                        </a>
                     </div>
                     <div className="itemContainer">
                         <LocationOnRounded className="icon"/>
                         <span>Toronto, Canada</span>
+                    </div>
+                    <div className="itemContainer">
+                        <AttachFile className="icon"/>
+                        <a href="assets/ElaineWeiResume.pdf" download>
+                            <span>Resume</span>
+                        </a>
                     </div>
                 </div>
                 <div className="right">

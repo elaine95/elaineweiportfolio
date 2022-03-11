@@ -1,7 +1,7 @@
 import PortfolioList from '../portfolioList/PortfolioList';
 import './portfolio.scss';
 import { useEffect, useState } from 'react';
-import {featuredPortfolio, webPortfolio, mobilePortfolio} from '../../data';
+import {UIUXPortfolio, dataPortfolio, mobilePortfolio, graphicsPortfolio} from '../../data';
 
 export default function Portfolio(){
     const [selected, setSelected] = useState("featured");
@@ -9,31 +9,38 @@ export default function Portfolio(){
 
     const list = [
         {
-            id: "featured",
-            title: "Featured"
-        },
-        {
-            id: "web",
-            title: "Websites"
-        },
-        {
             id: "mobile",
-            title: "Mobile App"
-        },      
+            title: "Mobile Web App"
+        },
+        {
+            id: "UIUX",
+            title: "UI/UX Design"
+        },
+        {
+            id: "dataScience",
+            title: "Data Science"
+        },
+        {
+            id: "graphic",
+            title: "Computer Graphic"
+        }      
     ];
     useEffect(()=>{
         switch(selected) {
-            case "featured":
-                setData(featuredPortfolio);
+            case "UIUX":
+                setData(UIUXPortfolio);
                 break;
-            case "web":
-                setData(webPortfolio);
+            case "dataScience":
+                setData(dataPortfolio);
                 break;
             case "mobile":
                 setData(mobilePortfolio);
                 break;
+            case "graphic":
+                setData(graphicsPortfolio);
+                break;
             default:
-                setData(featuredPortfolio);
+                setData(mobilePortfolio);
 
         }
             
@@ -55,7 +62,9 @@ export default function Portfolio(){
                 {data.map(d => (
 
                     <div className="item">
-                        <img src={d.img} alt=""/>
+                        <a href = {d.link} target="_blank" rel="noopener noreferrer">
+                            <img src={d.img} alt=""/>
+                        </a>
                         <h3>{d.title}</h3>
                     </div> 
 

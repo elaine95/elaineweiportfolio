@@ -8,7 +8,7 @@ export default function Intro(){
     useEffect(()=> {
         init(textRef.current, {
             showCursor: false,
-            strings: ["Web Developer and Designer", "Test Automation Engineer"],
+            strings: ["Software Engineer", "Test Automation Engineer"],
             backDelay: 1500,
             backSpeed: 60,
             showCursor: true 
@@ -24,7 +24,7 @@ export default function Intro(){
             <div className="right">
                 <div className="wrapper">
                     <h2>Hi, my name is</h2>
-                    <h1>Elaine Wei, </h1>
+                    <h1>Elaine Wei, I'm a</h1>
                     <h3>
                         <span ref={textRef}></span></h3>
                     <a href="#portfolio">

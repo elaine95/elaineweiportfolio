@@ -10,7 +10,7 @@ export default function Contact(){
         <div className="contact" id="contact">
             <div className="content">
                 <h2>What's Next...</h2>
-                <p> Although I am not currently looking for jobs, my inbox is always open...</p>
+                <p> My inbox is always open! <br/> Feel free to contact me through email or LinkedIn if you want to chat more :)</p>
                          
             </div>
             <div className="footer">
