@@ -10,13 +10,11 @@ export default function Experience(){
             <Fragment>
                 <h1>Where I've Worked</h1>
                 <Timeline>
-                    <Event interval={"2020 - Present"} title={"Ceridian"} subtitle={"Senior Test Engineer | Senior SDET"}>
+                    <Event interval={"2020 - Present"} title={"Ceridian"} subtitle={"Senior Software Developer In Test"}>
                         Ceridian is an HCM Company that provides Payroll, Talent, HR, Timesheet solutions. I am part of HR Development team
-                        and focusing on UI automation. I design and develop UI automation framework to automate complicated regression scenarios.
-                        The framework is scalable and have been used by more than 6000 end to end UI test scenarios. From time to time, 
-                        I provide support and training to team members to work on creating new test cases and framework enhancement tasks. 
-                        Additionaly, I do research and provide my team more innovative testing strategies to increase the testing coverage, 
-                        as well as to identify defects more efficiently. 
+                        and focusing on test automation. I design and lead an automation team to focus on implementing automation framework for complicated regression scenarios.
+                        The framework is scalable and have been used by more than 6000 end to end UI test scenarios.  I provide support and training to team members to work on creating new test cases and framework enhancement tasks. 
+                        Additionaly, I do research and provide my team more innovative testing strategies and more robusted way for automated deployment process.
                     </Event>
                     <Event interval={"2018 - 2020"} title={"Paymentus"} subtitle={"Automation Engineer"}>
                         Paymentus is a cloud company that provide E-payment solutions. I worked in Paymentus for one and half year and 
